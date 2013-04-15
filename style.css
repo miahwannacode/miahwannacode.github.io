@@ -226,14 +226,14 @@ body{
 	line-height: 28px;
 	font-weight: bold;
 }
-.content li{
+.my-desc li{
 	line-height: 20px;
 	padding: 10px 0px;
 }
-.content li a{
+.my-desc ul li a{
 	color: #000;
 }
-.content li a:hover{
+.my-desc ul li a:hover{
 	color: brown;
 }
 
