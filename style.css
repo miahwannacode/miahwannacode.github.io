@@ -260,10 +260,12 @@ body{
 h3#connect a:hover{
 	color: #a72c2c;
 }
+h3#connect{	
+	text-align: right;
+}
 h3#connect a{
 	color: #18a3da;
 	margin-top: 10px;
-	text-align: right;
 	font-weight: bold;
 }
 
