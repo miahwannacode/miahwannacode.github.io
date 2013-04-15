@@ -220,7 +220,7 @@ body{
 	width: 600px;
 }
 .half-right{
-	float: left;
+	float: right;
 	width: 270px;
 }
 .half-left h2{
