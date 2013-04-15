@@ -238,11 +238,11 @@ body{
 	list-style: square inside;
 }
 .my-desc ul li a{
-	color: #000;
+	color: #18a3da;
 }
 .content p a:hover,
 .my-desc ul li a:hover{
-	color: brown;
+	color: #a72c2c;
 }
 
 /* =Footer
