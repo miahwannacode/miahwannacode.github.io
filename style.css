@@ -229,25 +229,15 @@ body{
 	width: 280px;
 	padding-right: 20px;
 }
-.half-left h2{
+.half-left p{
 	font-size: 26px;
 	font-weight: bold;
 	line-height: 32px;
 	padding-bottom: 10px;
 }
-.half-left h3{
-	font-size: 22px;
-	line-height: 28px;
-	font-weight: bold;
-}
-.half-left p,
 .my-desc li{
 	line-height: 20px;
 	padding: 10px 0px;
-}
-.half-left p a{
-	color: #18a3da;
-	font-weight: bold;
 }
 .my-desc ul li{
 	list-style: square inside;
