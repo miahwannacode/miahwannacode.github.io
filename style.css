@@ -213,26 +213,33 @@ body{
 .content{
 	width: 800px;
 	margin: 0 auto;
-	text-align: center;
 	font-family: 'Century Gothic', Helvetica, Arial, Sans-serif;
 }
-.content h2{
+.half-left{
+	float: left;
+	width: 600px;
+}
+.half-right{
+	float: left;
+	width: 270px;
+}
+.half-left h2{
 	font-size: 26px;
 	font-weight: bold;
 	line-height: 32px;
 	padding-bottom: 10px;
 }
-.content h3{
+.half-left h3{
 	font-size: 22px;
 	line-height: 28px;
 	font-weight: bold;
 }
-.content p,
+.half-left p,
 .my-desc li{
 	line-height: 20px;
 	padding: 10px 0px;
 }
-.content p a{
+.half-left p a{
 	color: #18a3da;
 	font-weight: bold;
 }
@@ -242,7 +249,7 @@ body{
 .my-desc ul li a{
 	color: #18a3da;
 }
-.content p a:hover,
+.half-left p a:hover,
 .my-desc ul li a:hover{
 	color: #a72c2c;
 }
