@@ -257,10 +257,10 @@ body{
 }
 .half-left p a:hover,
 .my-desc ul li a:hover,
-h3#connect:hover{
+h3#connect a:hover{
 	color: #a72c2c;
 }
-h3#connect{
+h3#connect a{
 	color: #18a3da;
 	margin-top: 10px;
 	text-align: right;
