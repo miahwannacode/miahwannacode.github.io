@@ -230,6 +230,9 @@ body{
 	line-height: 20px;
 	padding: 10px 0px;
 }
+.my-desc ul li{
+	list-style-type: square;
+}
 .my-desc ul li a{
 	color: #000;
 }
