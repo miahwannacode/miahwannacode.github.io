@@ -122,6 +122,7 @@ body{
 .brand{
 	width: 249px;
 	height: 117px;
+	display: block;
 	margin: 0px auto;
 	text-indent: -9999px;
 	background: url('assets/img/WebLogo.png') no-repeat transparent;
@@ -269,13 +270,13 @@ h3#connect{
 	height: 28px;
 	background: #300;
 	padding-top: 10px;
+	font-family: Helvetica, Arial, Sans-serif;
 }
 .page-footer p{
 	font-size: 14px;
 	color: #f93;
 	font-weight: bold;
 	text-align: center;
-	font-family: Helvetica, Arial, Sans-serif;
 }
 .page-footer small{
 	color: #a72c2c;
@@ -283,5 +284,4 @@ h3#connect{
 	display: block;
 	font-size: 10px;
 	text-align: center;
-	font-family: Helvetica, Arial, Sans-serif;
 }
