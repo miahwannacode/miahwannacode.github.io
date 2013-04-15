@@ -1,0 +1,241 @@
+/*
+
+Miah's  Personal Github Site's Stylesheet
+Designed and Hardcoded by: 	Jeremiah John Abalos
+Author URI: 				facebook.com/crups
+
+++
+Props to Eric Meyer's Reset and to the guys who created _s.
+I got the reset from them.
+
+*/
+
+/* =Reset
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	font-size: 62.5%; 
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a{
+	text-decoration: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+a img {
+	border: 0;
+}
+.clearfix{
+  *zoom: 1;
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* =Structure
+-----------------------------------------------*/
+body{
+	background: url('assets/img/bg1.png');
+}
+.page-wrap{
+	margin: 0 auto;
+}
+.page-main{
+	width: 960px;
+}
+
+
+/* =Header
+-----------------------------------------------*/
+.page-header{	
+	width: 100%;
+	z-index: 990;
+	height: 140px;
+	position: fixed;
+	background: #ffffff;
+	padding: 20px 0 10px;
+	font-family: 'Century Gothic', Helvetica, Arial, Sans-serif;
+}
+.brand{
+	width: 249px;
+	height: 117px;
+	margin: 0px auto;
+	text-indent: -9999px;
+	background: url('assets/img/WebLogo.png') no-repeat transparent;
+}
+.main-nav{
+	width: 310px;
+	display: block;
+	margin: 0 auto;
+}
+.main-nav li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.main-nav li a{
+	color: #993300;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.main-nav li a:hover{
+	color: #330000;
+}
+
+
+/* =Content
+-----------------------------------------------*/
+.page-main{
+	font-size: 16px;
+	margin: 0px auto;
+	position: inherit;
+	padding-top: 180px;
+	padding-bottom: 20px;	
+	font-family: Helvetica, Arial, Sans-serif;
+}
+.carousel{
+	position: relative;
+	margin: 10px auto;
+	width: 600px;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-item{
+	position: relative;
+	-webkit-transition: 0.6s ease-in-out left;
+       -moz-transition: 0.6s ease-in-out left;
+         -o-transition: 0.6s ease-in-out left;
+            transition: 0.6s ease-in-out left;
+}
+.carousel-item-caption{
+	z-index: 2;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	width: 590px;
+	bottom: 0;
+	padding: 5px;
+}
+.carousel-item-caption h3{
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	font-family: Garamond, 'Times New Roman', Serif;
+}
+.carousel-item-caption p{
+	font-size: 12px;
+	color: #fff;
+}
+.carousel-indicators{
+	float: right;
+	margin-top: 5px;
+	list-style: none;
+	z-index: 5;
+}
+.carousel-indicators a{	
+	background: url('assets/img/carouselInactive.png') no-repeat;
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+	display: inline-block;	
+	padding: 0 2px;
+}
+.carousel-indicators a.selected{
+	background: url('assets/img/carouselActive.png') no-repeat;
+}
+.content{
+	width: 800px;
+	margin: 0 auto;
+}
+.content h2{
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.content p{
+	padding: 10px 0px;
+}
+
+/* =Footer
+-----------------------------------------------*/
+.page-footer{
+	width: 100%;
+	margin: 0 auto;
+	position: inherit;
+	height: 20px;
+	background: #300;
+	padding-top: 10px;
+}
+.page-footer p{
+	font-size: 14px;
+	color: #f93;
+	font-weight: bold;
+	text-align: center;
+	font-family: Helvetica, Arial, Sans-serif;
+}
