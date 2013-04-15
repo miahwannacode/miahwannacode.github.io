@@ -216,7 +216,13 @@ body{
 .content h2{
 	font-size: 26px;
 	font-weight: bold;
+	line-height: 32px;
 	padding-bottom: 10px;
+}
+.content h3{
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: bold;
 }
 .content p{
 	padding: 10px 0px;
