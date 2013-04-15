@@ -254,6 +254,11 @@ body{
 .my-desc ul li a:hover{
 	color: #a72c2c;
 }
+h3#connect{
+	margin-top: 10px;
+	text-align: right;
+	font-weight: bold;
+}
 
 /* =Footer
 -----------------------------------------------*/
