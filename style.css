@@ -264,7 +264,9 @@ body{
 	font-family: Helvetica, Arial, Sans-serif;
 }
 .page-footer small{
+	width: 100px;
 	color: #a72c2c;
+	margin: 0 auto;
 	font-size: 10px;
 	text-align: center;
 	font-family: Helvetica, Arial, Sans-serif;
