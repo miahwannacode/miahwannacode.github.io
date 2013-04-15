@@ -127,6 +127,8 @@ body{
 	background: url('assets/img/WebLogo.png') no-repeat transparent;
 }
 .brand a{
+	width: 249px;
+	height: 117px;
 	display: block;
 }
 .main-nav{
