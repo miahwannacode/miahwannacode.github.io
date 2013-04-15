@@ -213,6 +213,7 @@ body{
 	width: 800px;
 	margin: 0 auto;
 	text-align: center;
+	font-family: 'Century Gothic', Helvetica, Arial, Sans-serif;
 }
 .content h2{
 	font-size: 26px;
@@ -228,6 +229,12 @@ body{
 .content p{
 	line-height: 20px;
 	padding: 10px 0px;
+}
+.content p a{
+	color: #000;
+}
+.content p a:hover{
+	color: brown;
 }
 
 /* =Footer
