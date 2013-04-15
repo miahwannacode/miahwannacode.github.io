@@ -113,10 +113,10 @@ body{
 .page-header{	
 	width: 100%;
 	z-index: 990;
-	height: 140px;
+	height: 120px;
 	position: fixed;
 	background: #ffffff;
-	padding: 20px 0 10px;
+	padding: 10px 0 10px;
 	font-family: 'Century Gothic', Helvetica, Arial, Sans-serif;
 }
 .brand{
