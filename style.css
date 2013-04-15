@@ -226,14 +226,14 @@ body{
 	line-height: 28px;
 	font-weight: bold;
 }
-.content p{
+.content li{
 	line-height: 20px;
 	padding: 10px 0px;
 }
-.content p a{
+.content li a{
 	color: #000;
 }
-.content p a:hover{
+.content li a:hover{
 	color: brown;
 }
 
