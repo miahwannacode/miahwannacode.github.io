@@ -122,10 +122,12 @@ body{
 .brand{
 	width: 249px;
 	height: 117px;
-	display: block;
 	margin: 0px auto;
 	text-indent: -9999px;
 	background: url('assets/img/WebLogo.png') no-repeat transparent;
+}
+.brand a{
+	display: block;
 }
 .main-nav{
 	width: 310px;
