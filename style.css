@@ -229,7 +229,8 @@ body{
 	width: 280px;
 	padding-right: 20px;
 }
-.half-left p{
+.welcome,
+.half-left h2{
 	font-size: 26px;
 	font-weight: bold;
 	line-height: 32px;
@@ -242,6 +243,7 @@ body{
 .my-desc ul li{
 	list-style: square inside;
 }
+.half-left p a,
 .my-desc ul li a{
 	color: #18a3da;
 }
